@@ -1,0 +1,195 @@
+doctype html
+html(lang='en')
+  include ./header.jade
+  body
+    noscript
+      iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-MLKBMNC', height='0', width='0', style='display:none;visibility:hidden')
+    //-Header
+    include ./common.jade
+    .before-start
+    .hero#hero
+      .lead
+        .container
+          .row
+            .col-md-8.col-md-offset-2
+              //- img(src="./img/hero-logo.png")
+              p Grandview Fashion บริการเช่าชุดหลากหลายประเภท ชุดไทย ชุดไทยร่วมสมัย ชุดไทยประยุกต์ ชุดแฟนซี ชุดคอสเพลย์ ชุดลีดเดอร์ ชุดนานาชาติ ชุด AEC ชุดแดนซ์เซอร์ ชุดนักร้อง ชุดราตรี ชุดย้อนยุค ชุดเจ้าหญิง ชุดเจ้าชาย ชุดการแสดง ฯลฯ
+      .container
+        .row
+          .hero-img-fade
+            img(src="./img/slider/hero1.jpg")
+            img(src="./img/slider/hero2.jpg")
+            img(src="./img/slider/hero3.jpg")
+            img(src="./img/slider/hero4.jpg")
+            img(src="./img/slider/hero5.jpg")
+    .clearfix
+    section.service#service
+      .container
+        .title
+          h2 บริการเช่าชุด
+          p.description Grandview Fashion บริการให้เช่าชุดหลากหลายประเภท
+        .row.service-list
+          .col-md-5.col-sm-12
+            a(href="./service-thai.html").h300(data-original="./img/grandview-fashion-04.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดไทย
+          .col-md-4.col-sm-6
+            a(href="./service-jitlada.html").first-item.h150(data-original="./img/grandview-fashion-23.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดขอเฝ้า, ชุดเข้าเฝ้า, ชุดไว้ทุกข์สีขาว, ชุดจิตรลดาสีดำ-สีขาว
+            a(href="./service-fancy.html").h150(data-original="./img/grandview-fashion-01.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดแฟนซี
+          .col-md-3.col-sm-6
+            a(href="./service-shortnight.html").h150(data-original="./img/grandview-fashion-02.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดราตรีสั้น
+            a(href="./service-longnight.html").h150(data-original="./img/grandview-fashion-03.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดราตรียาว
+          .col-md-3.col-sm-6
+            a(href="./service-malesinger.html").h150(data-original="./img/grandview-fashion-05.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดนักร้องชาย
+            a(href="./service-womensinger.html").h150(data-original="./img/grandview-fashion-06.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดนักร้องหญิง
+          .col-md-3.col-sm-6
+            a(href="./service-international.html").h300(data-original="./img/grandview-fashion-07.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดนานาชาติ
+          .col-md-3.col-sm-6
+            a(href="./service-king.html").h150(data-original="./img/grandview-fashion-08.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดเจ้าชาย
+            a(href="./service-queen.html").h150(data-original="./img/grandview-fashion-09.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดเจ้าหญิง
+          .col-md-3.col-sm-6
+            a(href="./service-dancer.html").h300(data-original="./img/grandview-fashion-10.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดแดนซ์เซอร์
+
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-firedrama.html").h120(data-original="./img/grandview-fashion-25.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดพม่า - เพลิงพระนาง
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-chinese.html").h120(data-original="./img/grandview-fashion-29.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดจีน
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-cosplay.html").h120(data-original="./img/grandview-fashion-26.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดคอสเพลย์
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-mermaid.html").h120(data-original="./img/grandview-fashion-28.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดนางเงือก
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-animal.html").h120(data-original="./img/grandview-fashion-11.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดสัตว์
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-bird.html").h120(data-original="./img/grandview-fashion-27.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดขนนก - นางฟ้า
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-backwoodsman.html").h120(data-original="./img/grandview-fashion-12.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดคนป่าและอินเดียแดง
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-santa.html").h120(data-original="./img/grandview-fashion-13.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดแซนตี้ - แซนต้า
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-leather.html").h120(data-original="./img/grandview-fashion-14.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดหนัง
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-childfancy.html").h120(data-original="./img/grandview-fashion-15.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดแฟนซีเด็ก
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-halloween.html").h120(data-original="./img/grandview-fashion-16.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดฮาโลวีน
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-oldstyle.html").h120(data-original="./img/grandview-fashion-17.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดย้อนยุค
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-retromen.html").h120(data-original="./img/grandview-fashion-24.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดย้อนยุคชาย
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-occupation.html").h120(data-original="./img/grandview-fashion-18.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดอาชีพ
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-hawaii.html").h120(data-original="./img/grandview-fashion-19.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดฮาวาย
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-superhero.html").h120(data-original="./img/grandview-fashion-20.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดซุปเปอร์ฮีโร่
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-roman.html").h120(data-original="./img/grandview-fashion-21.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดกรีกโรมัน
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-cleo.html").h120(data-original="./img/grandview-fashion-30.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดคลีโอพัตรา
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-gasby.html").h120(data-original="./img/grandview-fashion-22.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดแกสบี้
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-jasmine.html").h120(data-original="./img/grandview-fashion-31.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดเจ้าหญิงจัสมิน
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-elvis.html").h120(data-original="./img/grandview-fashion-32.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดเอลวิส
+          .col-md-3.col-sm-4.col-xs-6
+            a(href="./service-indian.html").h120(data-original="./img/grandview-fashion-33.jpg", style="background-image: url('./img/placeholder.jpg')").lazy
+              p ชุดอินเดีย
+    section.review.hidden
+      .container 
+        .title
+          h2 รีวิวจากลูกค้า
+          p.description เราได้รับการไว้วางใจจากลูกค้าหลายท่าน
+    section.contactus#contactus
+      .container
+        .title
+          h2 ติดต่อเรา
+          p.description Grandview Fashion บริการให้เช่าชุดหลากหลายประเภท
+        .row
+          //- .col-md-4.col-md-offset-1
+          //-   p <b>Grandview Fashion บริการให้เช่าชุดหลากหลายประเภท</b> ชุดไทย ชุดแฟนซี ชุดแดนซ์เซอร์–นักร้อง ชุดคอสเพลย์ ชุดลีดเดอร์ ชุดดัมเมเยอร์ ชุดไทยประยุกต์-ไทยโมเดิร์น ชุดราชประแตน ชุดเจ้าบ่าว-เจ้าสาว ชุดนานาชาติ ชุดAEC ชุดราตรีสั้น-ยาว ชุดสูทชาย ชุดย้อนยุค ชุดเจ้าหญิง-ชุดเจ้าชาย ชุดนางฟ้า ชุดออกงานสังคม ชุดการแสดง ชุดแฟชั่น ชุดใช้ถ่ายละคร ชุดใช้อัดรายการทีวี ชุดใช้อัดเกมส์โชว์ ชุดถ่ายมิวสิควีดีโอ ชุดประกวด ชุดขบวนต่างๆ รับตัดชุดยูนิฟอร์ม รวมทั้งมีให้เช่าวิกผม  ให้เช่าเครื่องประดับ สร้อย ต่างหู กำไร กระเป๋า  รองเท้า ฯลฯ
+          //-   br
+          //-   .contact-list
+          //-     p.ig
+          //-       a(href="https://www.instagram.com/Grandviewfashion/", target="_blank") Grandviewfashion
+          //-       span
+          //-     p.facebook
+          //-       a(href="https://www.facebook.com/Grandviewfashion-1771605763115493/", target="_blank") Grandviewfashion
+          //-       span
+          //-     p.line 
+          //-       a(href="https://line.me/R/ti/p/%40grandviewfashion", target="_blank") @grandviewfashion (มี@ครับ)
+          //-         img(src="./img/qrcode.jpg?v=2").qrcode.img-responsive
+          //-         span
+          .col-md-5.contact-list
+            .group
+              h3 สาขาลาดพร้าว - โชคชัย4 (ซอยสุขสันติ)
+              p.open เวลาทำการ <br/>วันจันทร์ - ศุกร์ 11:00 น. — 19:00 น.<br/>วันเสาร์ 11:00 น. — 17:00 น.<br>เช่าชุดนัดล่วงหน้า Line@ : 
+                | <strong><a href="https://line.me/R/ti/p/%40grandviewfashion" target="_blank">@grandviewfashion</a></strong>
+                span
+
+              p.map 
+                a(href="https://goo.gl/maps/15RRtB6jT6QUVsjb9" target="_blank") 3/1 โช คชัย4 ซอย39 แยก6แขวงลาดพร้าว เขตลาดพร้าว กรุงเทพมหานคร (มีที่จอดรถภายในอาคาร 8 คัน) 
+                  span
+                <br>ซอยตำหนักเจ้าแม่กวนอิมมหาโพธิสัตว์โลกิเตศวร โชคชัย4 ซอย39 หรือเข้าซอยลาดพร้าว-วังหิน30 แยก6
+              p.iphone 099-291-5636
+                span
+            br
+          .col-md-offset-1.col-md-5.contact-list
+            .group
+              h3 สาขารังสิต - ลำลูกกาคลอง 4
+              p.open เวลาทำการ <br/>วันจันทร์ - ศุกร์ 11:00 น. — 19:00 น.<br/>วันเสาร์ 11:00 น. — 17:00 น.<br>เช่าชุดนัดล่วงหน้า Line@ : 
+                | <strong><a href="https://line.me/R/ti/p/%40grandviewfashion" target="_blank">@grandviewfashion</a></strong>
+                span
+              p.map 
+                a(href="https://goo.gl/maps/fZo3ej7fq8xJVcnr8" target="_blank") 70/4-70/5 หมู่ 6 หมู่บ้านอยู่เจริญ 3 ลำลูกกาคลอง 4 ถนนไสวประชาราษฎร์ ต.ลาดสวาย อ.ลำลูกกา จ.ปทุมธานี (จอดรถหน้าอาคาร) 
+                  span
+                <br>อาคารติดถนนใหญ่ 4 เลน ตรงข้ามโลตัสเอ็กซ์เพรส ลำลูกกาคลอง 4
+              p.iphone 091-789-3696
+                span
+              .map
+                a(href="./img/map_branch_2.jpg" target="_blank")
+                  img(src="./img/map_branch_2.jpg").img-responsive
+                img(src="./img/grandview_branch_2.jpg").img-responsive
+        //- .maps
+        //-   .row
+        //-     .col-md-5.col-md-push-5
+        //-       a(href="./img/maps.jpg", target="_blank")
+        //-         img(src="./img/maps.jpg").img-responsive
+        //-         | กดที่แผนที่เพื่อดูรูปใหญ่
+        //-     .col-md-4.col-md-offset-1.col-md-pull-5
+        //-       p ห้องเสื้อ แกรนด์วิว แฟชั่น ตั้งอยู่บนโครงการสิริอุสพลาซ่า ติดถนนระหว่างซอยลาดพร้าว 85-87 เลยบิ๊กซีลาดพร้าวไป 200 เมตร (มีบริการชุดทุกประเภท) 
+        //-       p - ห่างจากอิมพีเรียลลาดพร้าวประมาณ 100 เมตร
+        //-       p - ห่างจากซอยลาดพร้าว 85 ประมาณ 50 เมตร
+        //-       p - มีที่จอดรถมากกว่า 10 คัน สามารถจอดหน้าร้านได้ทันที				
+    //-Footer
+    include ./footer.jade
